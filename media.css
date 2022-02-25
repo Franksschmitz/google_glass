@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+section#corpo1 {
+    display: block;
+    width: 1000px;
+    float: left;
+    padding-right: 15px;
+}
+
+article#noticia-principal1 h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo1 h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo1 h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: white;
+    margin: 0px;
+}
+
+header#cabecalho-artigo1 h3 {
+    font-size: 12px;
+    color: #606060;
+}
+
+header#cabecalho-artigo1 h3.direita1 {
+    text-align: right;
+}
+
+div#tv-radio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 575px;
+    top: 490px;
+    width: 300px;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 88px;
+    top: 65px;
+    width: 440px;
+}
